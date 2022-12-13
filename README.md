@@ -21,15 +21,32 @@ For this you need <a href="http://www.editthiscookie.com/"> Edit this cookie </a
 
 Locate `.ROBLOSECURITY` and copy it's value <br>
 
-![image](https://user-images.githubusercontent.com/86912923/203606748-0959fd14-50fa-4391-9df7-44897789b3d6.png)
+<img style="width: auto; height: 600px" src="https://user-images.githubusercontent.com/86912923/203606748-0959fd14-50fa-4391-9df7-44897789b3d6.png"/>
+<br><br>
 
-<br>
+**WARNING** If you log out of the account, the cookie will become invalid! Instead, set `.ROBLOSECURITY`'s value to ` `&nbsp;and click the green arrow icon on the bottom of the menu (Shown in picture above).
+
+<br><br>
 
 ## Adding the cookie
 
 In the cookie array, add the cookie's value as a string. <br>
 
 ![image](https://user-images.githubusercontent.com/86912923/203607617-8648bfa7-970f-42c0-b399-ba4429e4c520.png)
+<br>
+
+To format muitple cookies, I have list an example below.
+
+```
+config = {
+    "Cookies": [
+        ".ROBLOSECURITY Here",
+        ".ROBLOSECURITY Here",
+        ".ROBLOSECURITY Here"
+    ]
+}
+```
+The last line should not incude a `,` at the end of the line otherwise it will result in a syntax error.
 
 <br>
 <br>
