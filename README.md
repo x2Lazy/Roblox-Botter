@@ -51,7 +51,7 @@ config = {
 ```
 <b> The last line should not incude a `,` at the end of the line otherwise it will result in a syntax error. </b>
 
-After this, change the `Bot` variable to the amount of bots you want (The max amount is how many cookies you porvided!).
+After this, change the `Bot` variable to the amount of bots you want! <b>(The max amount is how many cookies you provided)<b>
 
 <br>
 <br>
@@ -81,15 +81,14 @@ Run the python script and enjoy.
 # Commands
 
 <b> NOTE: Player names can be shortened! </b>
-Each arg is seperated by `, `
+Each argument is seperated by `, `
 
 ```
 Unlock, (true/false) | Wether all players have permission to use the bots.
-Come, (PlayerName) | Teleports all bots to a player
+Come, (PlayerName) | Teleports all bots to a player | Stop `Come, `
 Say, (Msg) | Make the bots say a message.
-Say, loop, (Msg) | Make the bots spam a message.
-Say, . | Stop the spam.
-chatmode, (Mode)
-Rejoin | Make the bots rejoin the place.
-Follow, (Player name) | Make the bots follow a player.
+Say, loop, (Msg) | Make the bots spam a message. | Stop `Say, .`
+chatmode, (Mode) | Change the Chat mode e.g `All, General`
+Rejoin | Make the bots rejoin the game.
+Follow, (Player name) | Make the bots follow a player. | Stop `Follow, `
 ```
