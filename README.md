@@ -51,7 +51,7 @@ config = {
 ```
 <b> The last line should not incude a `,` at the end of the line otherwise it will result in a syntax error. </b>
 
-After this, change the `Bot` variable to the amount of bots you want! <b>(The max amount is how many cookies you provided)<b>
+After this, change the `Bot` variable to the amount of bots you want! <b>(The max amount is how many cookies you provided)</b>
 
 <br>
 <br>
