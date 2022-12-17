@@ -49,7 +49,9 @@ config = {
     ]
 }
 ```
-The last line should not incude a `,` at the end of the line otherwise it will result in a syntax error.
+<b> The last line should not incude a `,` at the end of the line otherwise it will result in a syntax error. </b>
+
+After this, change the `Bot` variable to the amount of bots you want (The max amount is how many cookies you porvided!).
 
 <br>
 <br>
