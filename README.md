@@ -11,10 +11,21 @@ The instructions below are listed in order of steps so make sure to follow them!
 <ul>
   <li>  <a href="https://www.python.org/"> Python 3.8 > </a> </li>
   <li> <b> Python Packages: </b> time, requests, pathlib, urllib.parse, os, threading </li>
-  <li> A Roblox exploit that supports Autoexec <b> (Synapse recommended) </b> </li>
+  <li> A Roblox exploit that supports Autoexec <b> (<a href="https://x.synapse.to/">Synapse</a>: Paid or <a href="https://krnl.dev/">Krnl</a>: Free) </b> </li>
   <li> <a href="http://www.editthiscookie.com/"> Edit this cookie </a> </li>
   <li> <a href="https://wearedevs.net/dinfo/Multiple%20Games"> Muitiple rbx </a> </li>
 </ul>
+
+<br>
+<br>
+
+# Installing Python
+Go to https://www.python.org/ and install the latest version (3.11 recomended) and make sure to add it to Path! You may need to restart afterwards.
+
+Check if python is installed by typing `python -h` in Commmand prompt.
+
+Python should pip <b>(Python's package manager)</b> as well, so let's check if it installed as well. To do this run `pip -h` in Command prompt. <br>
+If pip as installed sucessfully, run `pip install requests pathlib`. This will install the required packages.
 
 <br>
 <br>
